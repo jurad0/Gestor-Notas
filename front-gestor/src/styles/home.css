@@ -1,0 +1,51 @@
+/* home.css */
+body {
+    background-color: #f8f9fa;
+    /* Fondo gris claro */
+    color: #212529;
+    /* Texto oscuro */
+}
+
+.home-content {
+    padding: 20px;
+    background-color: #f8f9fa;
+    /* Fondo gris claro para el contenido */
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #343a40;
+    /* Fondo oscuro para las tarjetas */
+    color: white;
+    /* Texto blanco */
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .nav-link:hover {
+    color: #adb5bd;
+}
+
+/* styles.css */
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}

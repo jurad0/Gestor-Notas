@@ -1,0 +1,27 @@
+/* src/styles/theme.css */
+body.light-theme {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+body.dark-theme {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+.modal-light {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.form.bg-dark {
+    background-color: white !important;
+    color: #000000 !important;
+}
+
+.modal-light .modal-header,
+.modal-light .modal-body,
+.modal-light .modal-footer {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}

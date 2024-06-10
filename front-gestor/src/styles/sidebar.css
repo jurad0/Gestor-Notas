@@ -1,0 +1,26 @@
+/* sidebar.css */
+.sidebar {
+    height: 100vh;
+    /* Ajusta la altura para que ocupe toda la pantalla */
+    background-color: #343a40;
+    /* Color de fondo oscuro */
+    border-right: 1px solid #495057;
+    /* Borde derecho */
+    padding: 20px;
+    color: white;
+}
+
+.sidebar .list-group-item {
+    background-color: #343a40;
+    /* Fondo oscuro para los ítems de la lista */
+    color: white;
+    /* Texto blanco */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar .list-group-item:hover {
+    background-color: #495057;
+    /* Fondo más claro al pasar el ratón */
+}
